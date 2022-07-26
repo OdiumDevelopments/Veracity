@@ -1,0 +1,46 @@
+.norecoil-proj {
+  border: 4px dashed #7b4ef9;
+  border-radius: 12px;
+  width: 628px;
+  height: 80px;
+  background-color: transparent;
+}
+
+.norecoil-proj:hover {
+  border: 4px dashed #7b4ef9;
+  border-radius: 12px;
+  width: 628px;
+  height: 80px;
+  background-color: #2d2c38;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #2d2c38;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #7b4ef9;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6f3ef8;
+}
+
+.imgload {
+  background: url("/assets/img/whistledev.gif?h=39fdbaad1cd594c7dc0ba9bf80e82da1")!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
